@@ -523,6 +523,10 @@
   .startups_creation span {
     font-size: 25px;
   }
+
+  .works_card p {
+    height: auto;
+  }
 }
 
 @media only screen and (max-width: 650px) {
@@ -569,6 +573,9 @@
 }
 
 @media only screen and (max-width: 600px) {
+  header {
+    padding-bottom: 30px;
+  }
   .h_banner {
     padding: 0;
   }
@@ -633,10 +640,34 @@
   form textarea {
     height: 180px;
   }
+
+  .works_card p {
+    margin-bottom: 25px;
+  }
+
+  .startups_creation {
+    padding: 20px 0px;
+  }
+
+  .hiring_container {
+    padding: 20px 0;
+  }
 }
 
-/* @media only screen and (max-width: 900px) {
-  .hamburger_menu_container {
-    display: flex;
+@media only screen and (max-width: 400px) {
+  .wwa_card:nth-child(1) {
+    margin-bottom: 15px;
   }
-} */
+
+  .values_header span {
+    font-size: 45px;
+  }
+
+  form textarea {
+    height: 160px;
+  }
+
+  .wwa_card p {
+    font-size: 28px;
+  }
+}
