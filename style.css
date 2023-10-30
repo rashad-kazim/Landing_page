@@ -471,6 +471,7 @@ section {
   justify-content: center;
   align-items: center;
   padding: 120px 120px;
+  padding-top: 80px;
   box-sizing: border-box;
 }
 
@@ -486,7 +487,7 @@ section {
   font-size: 50px;
   line-height: 50px;
   color: #3d4f5c;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
 .works_card_container {
